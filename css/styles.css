@@ -80,11 +80,12 @@ p{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px
 }
 
 .logo-black{
     color: #2E2F42;
-    margin-right: 72px;
+    margin-right: 76px
 }        
 
 .menu-list{

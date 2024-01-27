@@ -80,7 +80,6 @@ p{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-
 }
 
 .logo-black{
@@ -172,6 +171,7 @@ p{
     padding: 16px 32px;
     margin-top: 48px;
     border: none;
+    min-width: 169px
 }
 
 .button:hover,
@@ -233,6 +233,7 @@ background-color: #404BBF;
 .our-team-list-item {
     background: #FFF;
     width: calc((100% - 72px) /4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-img {
@@ -249,7 +250,7 @@ background-color: #404BBF;
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px
 }
 
 .our-team-text {
@@ -284,9 +285,12 @@ background-color: #404BBF;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
+    margin-bottom: 0;
 }
 
 .portfolio-list-item {
+    
 }
 
 .portfolio-content{
@@ -301,6 +305,7 @@ background-color: #404BBF;
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.02em;
+    margin-bottom: 8px
 }
 
 .portfolio-text {
@@ -318,12 +323,11 @@ background-color: #404BBF;
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0 100px;
 }
 
 .footer .footer-logo{
     display: inline-block;
-    padding-top: 101.5px;
-    padding-bottom: 17.5px;
 }
 
 .footer-logo {
